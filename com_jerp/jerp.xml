@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>JERP</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>05052008</creationDate>
+	<author>Stefan Hierlmeier</author>
+	<authorEmail>Stefan@Hierlmeier.de</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>Component Version String</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Description of the component ...</description>
+
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>jerp.php</filename>
+		<filename>controller.php</filename>
+		<filename>views/index.html</filename>
+		<filename>views/index.html</filename>
+		<filename>views/view.html.php</filename>
+		<filename>views/tmpl/index.html</filename>
+		<filename>views/tmpl/default.php</filename>
+	</files>
+	
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>JERP</menu>
+		
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+	<!-- Site Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>admin.jerp.php</filename>
+		</files>		
+	</administration>
+</install>
